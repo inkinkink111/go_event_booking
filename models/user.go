@@ -41,7 +41,7 @@ func (u User) Save() error {
 	return err
 }
 
-func (u User) ValidateCredentail() error {
+func (u *User) ValidateCredentail() error {
 	query := "SELECT id, password FROM users WHERE email = ?"
 	row := db.DB.QueryRow(query, u.Email)
 
