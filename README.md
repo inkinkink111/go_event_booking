@@ -1,4 +1,5 @@
-Event booking api practice with Go
+# Description
+Event booking practice with Go. With basic authentication and full CRUD API
 
-framework
+# framework
 - Gin
